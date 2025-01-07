@@ -126,11 +126,24 @@
                         Service Oriented Applications using SOAP and REST web services. -->
                         As part of my research work, the progress can be summarized as below - 
                         <!-- I have so far implemented novel pipeline methods for generating QA pairs with named entities and published a QA pair dataset involving TV series data. -->
-                            1) Presented a named entity-based sentiment analysis dataset OTTQA v1.0. Along with that, supportive tweets are also extracted according to their relevancy with the answer span keyword, which is used to gauge opinion changes of OTT series characters over a given time.
-                            2) Applied advanced natural language processing techniques and neural language models in our experiments to retrieve the most relevant clinical trials from PubMed Data as part of the TREC CDS track.
-                            3) Used Named Entity Recognition (NER) and POS tagging methods to retrieve the specific clinic terms from the document to improve the similarity score between documents.
-                            4) Implemented a novel framework, Context-Aware Abstractive Summarizer (CAAS), to curate the OTTQA v2.0 dataset, achieving state-of-the-art performance over baseline frameworks. The framework comprises text clustering, topic modeling, semantic chunking, and GPT-based zero-shot abstractive summarization. It facilitates the creation of contextually relevant summarized abstracts for QA tasks and effectively scales large document collections.
-                            5) Built a multimodal RAG application for medical use cases with cutting-edge technology like LangChain, GPT, Faiss-vectorDB, FastAPI
+                        <ul class="lead">
+                            <li>
+                              Implemented a Multimodal RAG pipeline tool, <strong>AlzheimerRAG</strong> for biomedical research use cases, primarily focusing on Alzheimer's disease from PubMed articles. The pipeline incorporates multimodal fusion techniques to integrate textual and visual data processing by efficiently indexing and accessing vast amounts of biomedical literature.<br>
+                              <strong>Tools & Technology:</strong> LLMs like fine-tuned variants of LlaMA and LlaVA, LangChain, FaissDB, Jinja2, FastAPI, and GPT-4.0.
+                            </li>
+                            <li>
+                              Published <strong>DragonVerseQA</strong>: Open-Domain Long-Form Context-Aware Question-Answering Dataset based on the fantasy universe genre of TV series “House of Dragons” and “Game of Thrones”. It combines full episode summaries sourced from HBO and fandom wiki websites, user reviews from sources like IMDb and Rotten Tomatoes, high-quality, open-domain, legally admissible sources, and structured data from repositories like WikiData into one dataset providing a multidimensional context. It also integrates a Knowledge Graph for context analysis.
+                            </li>
+                            <li>
+                              Developed novel QA dataset <strong>GameofThronesQA v1.0</strong> using Answer Aware QA technique in NLP. Implemented a novel pipeline approach for answer-aware question generation, where the answers are extracted based on the named entities from the TV series.
+                            </li>
+                            <li>
+                              Presented a named entity-based sentiment analysis dataset <strong>OTTQA v1.0</strong>. Supportive tweets are also extracted according to their relevancy with the answer span keyword, which is used to gauge opinion changes of OTT series characters over a given time.
+                            </li>
+                            <li>
+                              Retrieved the most relevant clinical trials from PubMed Data based on provided topic tracks utilizing natural language processing techniques and neural language models. Performed data preparation tasks using PubMed Parser for article extraction, combined cleaning, and data preprocessing for model input for information retrieval. Employed Sentence Transformer and Doc2Vec models for feature extraction and reranked the articles based on Cosine similarity scores.<nbsp></nbsp><strong>Part of:</strong> TREC Clinical Trials track 2023.
+                            </li>
+                          </ul>
                         You can refer to the project sections for more details.
                     </p>
                     <p class="lead">
